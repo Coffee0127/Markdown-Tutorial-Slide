@@ -40,7 +40,7 @@ Notes:
 * ...
 
 Notes:
-1. Hackpad 已被 Dropbox Paper 收購
+Hackpad 已被 Dropbox Paper 收購
 
 ---
 
@@ -143,7 +143,7 @@ H2 字體二大的標題
 3. 神鬼傳奇
 
 Notes:
-在寫有序清單時，不需要排現在是第幾筆，全部都用 1 會自動排序
+在寫有序清單時，不需要排現在是第幾筆，全部都用 `1.` 會自動排序
 
 ---
 
@@ -277,7 +277,7 @@ Content in the first column | Content in the second column
 
 ---
 
-哪些即時編輯器可以用呢？
+哪些編輯器可以用呢？
 * ~~記事本~~
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Atom](https://atom.io/)
