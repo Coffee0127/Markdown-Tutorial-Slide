@@ -103,6 +103,19 @@ H2 字體二大的標題
 
 ----
 #### 段落
+兩內容之間空一行
+```md
+一鄉二里共三夫子，不識四書五經六義，竟敢教七八九子，十分大膽！ 
+
+十室九貧，湊得八兩七錢六分五毫四厘，尚且三心二意，一等下流！ 
+```
+
+一鄉二里共三夫子，不識四書五經六義，竟敢教七八九子，十分大膽！ 
+
+十室九貧，湊得八兩七錢六分五毫四厘，尚且三心二意，一等下流！ 
+
+----
+#### 換行
 內容後面加上兩個空白  
 (當然要加 `<br />` 也可以，只是很亂...)
 
@@ -145,6 +158,21 @@ H2 字體二大的標題
 Notes:
 在寫有序清單時，不需要排現在是第幾筆，全部都用 `1.` 會自動排序
 
+----
+#### 巢狀清單
+透過**縮排**混用有序清單與無序清單  
+**注意巢狀清單上限為三層**
+
+* 中華職棒 2016 年戰績
+    + 上半季
+        1. 中信兄弟 35W-23L-2D
+        1. 統一7-11獅 29W-31L-0D
+        1. Lamigo桃猿 27W-31L-2D
+    + 下半季
+        1. 義大犀牛 34W-25L-1D
+        1. 中信兄弟 33W-27L-0D
+        1. Lamigo桃猿 26W-33L-1D
+
 ---
 
 連結
@@ -152,21 +180,42 @@ Notes:
 ----
 #### 超連結
 ```md
-[連結名稱](URL)
-[Google](https://www.google.com/)
+[連結名稱](URL "標題")
+[Google](https://www.google.com/ "咕狗大神")
+
+<URL>
+<https://www.google.com/>
 ```
 
-[Google](https://www.google.com/)
+[Google](https://www.google.com/ "咕狗大神")  
+<https://www.google.com/>
+
+Notes:
+`<>` 的超連結不支援 `標題` 屬性
 
 ----
 #### 圖片
 跟超連結一樣，只是前面加上 `!`
 ```md
-![連結名稱](URL)
-![Google](https://www.google.com.tw/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
+![替代文字](URL "標題")
+![Google](https://www.google.com.tw/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png "咕狗大神")
 ```
 
-![Google](https://www.google.com.tw/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
+![Google](https://www.google.com.tw/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png "咕狗大神")
+
+----
+#### 超連結重複使用
+```md
+[連結名稱][id]
+...
+[id]: URL "標題"
+
+不識廬[山][mtn]真面目，只緣身在此[山][mtn]中。
+[mtn]: https://en.wikipedia.org/wiki/Mountain "就山啊"
+```
+
+不識廬[山][mtn]真面目，只緣身在此[山][mtn]中。
+[mtn]: https://en.wikipedia.org/wiki/Mountain "就山啊"
 
 ---
 
@@ -203,6 +252,33 @@ Notes:
 ~~被刪除了QQ~~
 ```
 ~~被刪除了QQ~~
+
+----
+#### 跳脫字元
+使用 `\` 呈現特殊符號
+```md
+\*\*回覆後顯示文章\*\*
+```
+
+\*\*回覆後顯示文章\*\*
+
+----
+
+需要跳脫字元的特殊符號
+```md
+\   反斜線
+`   反引號
+*   星號
+_   底線
+{}  大括號
+[]  方括號
+()  括號
+#   井字號
++   加號
+-   減號
+.   英文句點
+!   驚嘆號
+```
 
 ---
 
