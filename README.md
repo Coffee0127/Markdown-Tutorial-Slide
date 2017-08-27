@@ -343,6 +343,9 @@ Content in the first column | Content in the second column
 * [Github Markdown 語法](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 * [GitLab Markdown 語法](https://docs.gitlab.com/ee/user/markdown.html)
 * [Emoji (不是都能使用)](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+* [Easy Markdown with VS Code](https://www.udemy.com/easy-markdown-with-vs-code/?couponCode=MARKDOWNFREE)
+    + [Udemy](https://www.udemy.com/) **免費** 線上課程
+    + ~~我最喜歡推坑來用 [Visual Studio Code](https://code.visualstudio.com/) 了(逃)~~
 
 ----
 Ｑ：Markdown 沒有我要的語法怎麼辦？  
