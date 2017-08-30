@@ -361,7 +361,7 @@ Content in the first column | Content in the second column
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Atom](https://atom.io/)
 * [Sublime](https://www.sublimetext.com/)
-    + 需額外安裝 [View In Browser](https://packagecontrol.io/packages/View%20In%20Browser)
+    + 需額外安裝 [Markdown Preview](https://packagecontrol.io/packages/Markdown%20Preview)
 * [Github](https://github.com/)
 * [HackMD](https://hackmd.io/)
 
